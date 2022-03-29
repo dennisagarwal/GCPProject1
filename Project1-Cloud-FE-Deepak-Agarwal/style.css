@@ -1,0 +1,133 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Home Page */
+#login {
+  text-align: center;
+}
+
+.form-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.employee-grid-container{
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  background-color: #5c9ead;
+  justify-content: flex-end;
+}
+
+nav a {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #e39774;
+}
+
+nav a:hover{
+  background-color:  bisque;
+  color:cornflowerblue
+}
+
+
+
+td{
+  /* width: 20%; */
+  height: 140px;
+  border-right: #000000 1px solid;
+  border-bottom: #000000 1px solid;
+  text-align: center;
+}
+
+th{
+  width: 300px;
+  height: 60px;
+  border-right: #000000 1px solid;
+  border-bottom: #000000 1px solid;
+  border-top: #000000 1px solid;
+  text-align: center;
+  color:blue;
+  font-weight: 600;
+  background-color: bisque;
+}
+
+h1, h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  /* padding: 30px auto; */
+  margin-top:20px;
+  height: 80px;
+}
+
+/* #login{
+  background-color: #5c9ead ;
+  border: #000000 solid 1px;
+  text-align: center;
+} */
+#employee-submit-form{
+  /* margin:auto; */
+  margin-top: 10px;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-left:20px;
+  border: #000000 solid 1px;
+  display: inline-block;
+  background-color: #5c9ead ;
+}
+.employee-submit-form-div{
+  height:40px;
+  /* padding-left:20px; */
+  padding-top: 5px;
+}
+
+.employee-submit-form-label{
+  width:400px;
+}
+
+#e-submit, #login-btn{
+  height:40px;
+  width: 80px;
+  /* padding:10px; */
+  margin:10px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+#e-submit:hover{
+  background-color: #e39774;
+}
+  #login-btn:hover{
+  background-color: #e39774;
+}
+
+
+/* input, button{
+
+} */
+
+
+/* employee page */
+/* .employee-grid-container {
+  display: grid;
+  grid-template-areas: "e-table e-table e-table e-form";
+
+} */
+
+.employee-grid-container #employee-reimbursements-table {
+  grid-area: a-table;
+    /* display:flex;
+  justify-content: center; */
+}
+
+.employee-grid-container #employee-submit-form {
+  grid-area: a-form;
+}
